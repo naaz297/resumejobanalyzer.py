@@ -25,7 +25,7 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
-load_css("style.css")
+
 
 st.markdown("""
 <style>
