@@ -28,7 +28,40 @@ st.set_page_config(
 load_css("style.css")
 
 st.markdown("""
+<style>
 
+.main{
+    background-color:#f7f9fc;
+}
+
+h1{
+    text-align:center;
+    color:#003366;
+}
+
+h2,h3{
+    color:#003366;
+}
+
+.stButton>button{
+    width:100%;
+    background:#4CAF50;
+    color:white;
+    border-radius:10px;
+    height:3em;
+    font-size:18px;
+}
+
+.stButton>button:hover{
+    background:#2E8B57;
+    color:white;
+}
+
+.block-container{
+    padding-top:2rem;
+}
+
+</style>
 """, unsafe_allow_html=True)
 
 
